@@ -5,6 +5,8 @@
  */
 package application;
 
+import model.entities.Department;
+
 /**
  *
  * @author Gabriel
@@ -17,7 +19,8 @@ public class Program {
     public static void main(String[] args) {
         // PROJETO- criando projetos e repositório Git- Aula 234
         
-        
+        Department obj= new Department(1, "Books");
+        System.out.println(obj);
     }
     
 }
